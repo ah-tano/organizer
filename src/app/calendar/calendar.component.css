@@ -1,0 +1,37 @@
+table {
+  width: 100%;
+  margin-bottom: 1rem;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #eeeeee;
+}
+
+td, th {
+  border: 1px solid #cccccc;
+  padding: 0.5rem 1rem;
+}
+
+td {
+  text-align: center;
+  transition: all 0.2s;
+}
+
+td.disabled {
+  opacity: 0.5;
+}
+
+td:hover:not(.disabled) {
+  background-color: #eeeeee;
+  cursor: pointer;
+}
+
+.active {
+  color: #ff0022;
+  font-weight: bold;
+}
+
+.selected {
+  color: #005eff;
+}
